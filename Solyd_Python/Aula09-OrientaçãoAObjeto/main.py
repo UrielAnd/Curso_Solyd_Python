@@ -26,5 +26,5 @@ caminhão_Roxo = Caminhão("roxo", 6, "Volvo", 49, 50000) #Modo em que se instan
 
 print(caminhão_Roxo.cor,caminhão_Roxo.marca,caminhão_Roxo.rodas,caminhão_Roxo.tanque,caminhão_Roxo.peso)
 
-caminhão_Roxo.abastecer(10)
+caminhão_Roxo.abastecer(7)
 print(caminhão_Roxo.tanque)
