@@ -17,7 +17,7 @@ arquivo = open("ContaAté.txt", "w")
 arquivo.write("Teste no aquivo.txt criado")    #Escreve dentro do arquivo
 
 for i in range(0, 1000001):
-    arquivo.write(str(i) + "\n")        #Escreve dentro do arquivo
+    arquivo.write(str(i) + "\n")        #Escreve dentro do arquivo  #Nesse caso a concatenação é feita dessa forma, com o +. Pois se não é considerado com um parametro amais na função
 
 arquivo = open("ContaAté.txt", "r")     #r lê do arquivo
 print(arquivo.read())   #Função para Lê do arquivo, ela so funciona se o arquivo estiver aberto para leitura
