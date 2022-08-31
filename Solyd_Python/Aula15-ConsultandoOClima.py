@@ -9,7 +9,7 @@ try:
     tempo = json.loads(req.text)        #Pega o get da url e adapta para um arquivo json
     if tempo["cod"] == 200:     #If para verificar a condição da conexão e vê se a cidade pequisada existe
         grausC = (tempo["main"]["temp"] - 273)      #Convete a temperatura em kelvim para Celcius
-        print ("--------------------------Tempo em ",cidade,"--------------------------")
+        print ("--------------------------Tempo em",cidade,"--------------------------")
         print ("Temperatura:",int(grausC),"°C")         #Printa informações resgatada pela api para o usuário
         print ("Condição:",tempo["weather"][0]["main"]) #Printa informações resgatada pela api para o usuário
         print ("Descrição:",tempo["weather"][0]["description"]) #Printa informações resgatada pela api para o usuário
