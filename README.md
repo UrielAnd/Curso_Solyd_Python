@@ -26,12 +26,12 @@
 ### Atividades
 <p>Ao longo do curso foram desenvolvidas atividades para o treinamento e fixação do conteúdo. Atividades essas usando POO, APIs, ARQUIVOS... Onde também se encontram nos arquivos do repositorio.</p>
 
-### Linguagens ultilizadas
+### Linguagem ultilizadas
 <div>
 <img src="https://img.icons8.com/fluency/48/python.png"/>
 </div>
 
-### Ferramentas ultilizadas
+### Ferramenta ultilizadas
 <div>
 <img src="https://img.icons8.com/color/48/api-settings.png"/>
 </div>
